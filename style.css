@@ -1,0 +1,74 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero{
+    background-image: url(./images/ilorin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.activities{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.activiescard{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    padding: 5px;
+    margin: 10px;    
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.activiescard > img{
+    width: 60%;
+    overflow: hidden;
+}
+.guide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #586ba4;
+    margin: 20px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #5858A3;
+    height: 294px;
+    padding: 20px;
+}
+.guide > img{
+    width: 180px;
+   height: 248px;
+}
+
+@media screen {
+    
+}
